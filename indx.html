@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panda E-Commerce</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide background"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>Gaming HeadPhone</h1>
+                <p>
+                  A gaming headset can be wireless, noise-canceling, have a
+                  microphone with all kinds of different settings and features
+                  and even
+                </p>
+                <h1 class="price">$40</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="Image/banner-images/headphone.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>Sony LED Tv for Sport</h1>
+                <p>
+                  Bravia (stylized as BRAVIA) is a brand of Sony Visual Products
+                  Inc., a wholly owned subsidiary of Sony Corporation,
+                </p>
+                <h1 class="price">$1200</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="Image/banner-images/tv.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <h1>X Box</h1>
+                <p>
+                  What is Xbox known for? Image result for xbox describe Xbox is
+                  a video gaming brand created and owned by Microsoft.
+                </p>
+                <h1 class="price">$320</h1>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+
+              <div class="col-md-5">
+                <img
+                  src="Image/banner-images/xbox.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container catagory">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat1">
+            <h1>Watch</h1>
+            <img src="Image/categories/watch.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat2">
+            <h1>Bag</h1>
+            <img src="Image/categories/bag.png" alt="" />
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="d-flex justify-content-between align-items-center cat3">
+            <h1>shoe</h1>
+            <img src="Image/categories/shoes.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container Shoes" id="Shoes">
+      <h1>Shoes</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Image/shoes/shoe-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nike-32</h5>
+              <p class="card-text">
+                A shoe is an item of footwear intended to protect and comfort
+                the human foot. They are often worn with a sock. Shoes are also
+                used as an item of decoration and fashion.
+              </p>
+              <h1>$32</h1>
+              <br />
+              <br />
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Image/shoes/shoe-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nike-4</h5>
+              <p class="card-text">
+                A shoe is an item of footwear intended to protect and comfort
+                the human foot. They are often worn with a sock. Shoes are also
+                used as an item of decoration and fashion.
+              </p>
+              <h1>$42</h1>
+              <br />
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Image/shoes/shoe-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nike-8</h5>
+              <p class="card-text">
+                A shoe is an item of footwear intended to protect and comfort
+                the human foot. They are often worn with a sock. Shoes are also
+                used as an item of decoration and fashion.
+              </p>
+              <h1>$30</h1>
+              <br />
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container Backpack" id="Backpack">
+      <h1>Backpack</h1>
+      <br />
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="Image/bags/bag-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nikon-1</h5>
+              <p class="card-text">
+                Find the Right Purchase Hand Bag Manufacturer in China. Quality
+                Purchase Hand Bag. Send Inquiry Now! Leading B2B Portal. SGS
+                Audited Suppliers. China’s B2B Impact Award
+              </p>
+              <h1>$9</h1>
+              <br />
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Image/bags/bag-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nikon-2</h5>
+              <p class="card-text">
+                Find the Right Purchase Hand Bag Manufacturer in China. Quality
+                Purchase Hand Bag. Send Inquiry Now! Leading B2B Portal. SGS
+                Audited Suppliers. China’s B2B Impact Award
+              </p>
+              <h1>$7</h1>
+              <br />
+              <button class="buy-now-button">Buy Now>></button>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="Image/bags/bag-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nikon-3</h5>
+              <p class="card-text">
+                Find the Right Purchase Hand Bag Manufacturer in China. Quality
+                Purchase Hand Bag. Send Inquiry Now! Leading B2B Portal. SGS
+                Audited Suppliers. China’s B2B Impact Award</p>
+
+                <h1>$3</h1>
+                <br />
+                <button class="buy-now-button">Buy Now>></button>
+              </p>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
