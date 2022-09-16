@@ -43,3 +43,11 @@
   border: none;
   box-shadow: 5px 5px 10px lightgray;
 }
+
+.last-bg {
+  background-color: #fceae8;
+}
+
+footer {
+  text-align: center;
+}
